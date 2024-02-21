@@ -2,3 +2,4 @@
 P=("padma" "srikanth" "kakarla")
 echo "The value of the first person is : ${P[0]}"
 echo "The value of the all persons is : ${P[@]}"
+echo "The value of the all persons is : ${P[*]}"
