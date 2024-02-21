@@ -2,5 +2,5 @@
 P1=$1
 P2=$2
 echo "$P1 : Hi $P2"
-echo "$p2 : Hi $P1"
+echo "$P2 : Hi $P1"
 echo " Hello $P1 and $P2"
