@@ -1,0 +1,3 @@
+#!/bin/bash
+P=("padma" "srikanth" "kakarla")
+echo "The value of the first person is : ${P[0]}"
