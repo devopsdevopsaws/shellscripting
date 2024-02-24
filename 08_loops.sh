@@ -23,7 +23,7 @@ VADILATE(){
     exit 1
     else
     echo -e " $i status is ..........$G SUCCESS $N"
-
+    fi
 }
 
 for i in $@
