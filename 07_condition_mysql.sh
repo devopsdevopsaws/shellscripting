@@ -17,7 +17,7 @@ else
 echo "You are super user execute"
 fi
 
-yum list installed $i &>> $script_log
+yum list installed $i &>>$script_log
 
 if [ $? -ne 0 ]
 then
@@ -26,7 +26,7 @@ else
 echo -e " $Y  $i is already installed $N"
 fi
 
-yum install $i -y &>> $script_log
+yum install $i -y &>>$script_log
 
 if [ $? -ne 0 ]
 then
