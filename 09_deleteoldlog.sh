@@ -7,4 +7,4 @@ LOGFILE=$script_path/$script_name-$date.log
 
 f=$(find $APP_LOG -name *.txt -mtime +14 )
 
-echo "script started executing at $DATE" &>>$LOGFILE
+echo "script started executing at $date" &>>$LOGFILE
