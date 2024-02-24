@@ -1,7 +1,0 @@
-#!/bin/bash
-P1=sri
-P2=sai
-echo "$P1 : Hi $P2"
-echo "$P2 : Hi $P1"
-
-echo "Hello $P1 and $P2"

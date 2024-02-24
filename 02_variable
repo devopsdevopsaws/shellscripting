@@ -1,3 +1,0 @@
-#!/bin/bash
-D=$(date)
-echo "The value of date is :$D"

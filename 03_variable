@@ -1,6 +1,0 @@
-#!/bin/bash
-N1=$1
-N2=$2
-echo "we have to add the above two number"
-N=$((N1+N2))
-echo "The value of two numbers is :$N"
