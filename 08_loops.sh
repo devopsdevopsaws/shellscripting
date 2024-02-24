@@ -16,7 +16,7 @@ else
 echo -e " $G Hey you are a super user, Running the script $N "
 fi
 
-VADILATE(){
+VALIDATE(){
     if [ $1 -ne 0 ]
     then 
     echo -e " $i status is ......... $R FAILURE $N"
