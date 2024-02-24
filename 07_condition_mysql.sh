@@ -6,9 +6,9 @@ G="\e[32m"
 N="\e[0m"
 Y="\e[33m"
 
-if [ $? -eq 0 ]
+if [ $userid -ne 0 ]
 then
-echo -e "$R You are not a super user please login as super user and execute $N"
+echo -e " $R You are not a super user please login as super user and execute $N "
 else
 echo "You are super user execute"
 fi
