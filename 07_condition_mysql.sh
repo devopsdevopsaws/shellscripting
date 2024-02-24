@@ -21,7 +21,7 @@ yum list installed $i &>>$script_log
 
 if [ $? -ne 0 ]
 then
-echo -e "$R $i is not yet installed , Please install Git $N"
+echo -e "$R $i is not yet installed , Please install  $N"
 else
 echo -e " $Y  $i is already installed $N"
 fi
