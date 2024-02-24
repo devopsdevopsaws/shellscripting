@@ -22,7 +22,7 @@ VALIDATE(){
     echo -e " $i status is ......... $R FAILURE $N"
     exit 1
     else
-    echo -e " $i status is ..........$G SUCCESS $N"
+    echo -e " $N $i status is ..........$G SUCCESS $N"
     fi
 }
 
