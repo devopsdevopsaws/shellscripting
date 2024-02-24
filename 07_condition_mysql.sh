@@ -19,7 +19,7 @@ if [ $? -ne 0 ]
 then
 echo -e "$R $i is not yet installed , Please install Git $N"
 else
-echo " $Y  $i is already installed"
+echo -e " $Y  $i is already installed"
 fi
 
 yum install $i -y
