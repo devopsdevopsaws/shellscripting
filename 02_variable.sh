@@ -1,3 +1,3 @@
 #!/bin/bash
-date=$(date)
+date=$(date+%F)
 echo "Hi Todays date is : $date"
