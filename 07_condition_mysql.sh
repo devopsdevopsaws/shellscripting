@@ -1,6 +1,6 @@
 #!/bin/bash
 userid=$(id -u)
-date=$(date +%F:%H:%M:%S)
+date=$(date +%F-%H-%M-%S)
 script_name=$0
 script_path=/home/ec2-user/shellscripting/logs
 script_log=$script_path/$script_name-$date.log
