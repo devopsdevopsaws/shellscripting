@@ -8,3 +8,9 @@ LOGFILE=$script_path/$script_name-$date.log
 f=$(find $APP_LOG -name *.txt -mtime +14 )
 
 echo "script started executing at $date" &>>$LOGFILE
+
+while read line
+do
+    echo "Deleting $line" &>>$LOGFILE
+    rm -rf $line
+done <<< $f
