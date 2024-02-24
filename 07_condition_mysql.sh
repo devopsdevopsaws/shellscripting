@@ -30,9 +30,9 @@ yum install $i -y &>>$script_log
 
 if [ $? -ne 0 ]
 then
-echo -e "Installation of $i : ..........$R FAILURE $N"
+echo -e " Installation of $i : ..........$R FAILURE $N"
 else
-echo -e  "Installation of $i : ..........$G SUCCESS $N"
+echo -e  " Installation of $i : ..........$G SUCCESS $N"
 fi
 
 
