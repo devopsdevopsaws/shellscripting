@@ -17,9 +17,9 @@ yum list installed $i
 
 if [ $? -ne 0 ]
 then
-echo -e "$R Git is not yet installed , Please install Git $N"
+echo -e "$R $i is not yet installed , Please install Git $N"
 else
-echo "$Y Git is already installed"
+echo "$Y $i is already installed"
 fi
 
 yum install $i -y
