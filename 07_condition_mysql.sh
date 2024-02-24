@@ -6,7 +6,7 @@ G="\e[32m"
 N="\e[0m"
 Y="\e[33m"
 
-if [ $? -ne 0 ]
+if [ $? -eq 0 ]
 then
 echo -e "$R You are not a super user please login as super user and execute $N"
 else
@@ -19,7 +19,7 @@ if [ $? -ne 0 ]
 then
 echo -e "$R $i is not yet installed , Please install Git $N"
 else
-echo "$Y $i is already installed"
+echo " $Y $i is already installed"
 fi
 
 yum install $i -y
